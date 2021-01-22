@@ -134,3 +134,54 @@ button:hover{
 .artist img{
     width:100%;
 }
+* {
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 500px) {
+  .title-container div {
+    width: 100vw;
+    height: 35vh;
+    background-size: 150vw 50vh;
+    background-position: top;
+  }
+  h1 {
+      font-size: 3.4rem;
+  }
+  button {
+      font-size: 1.3rem;
+  }
+  nav a{
+      font-size: 1.5rem;
+  }
+  nav span{
+    border-left:2px solid #626262;
+}
+nav {
+    height: 10px;
+    line-height: 10px;
+    width: 45vw;
+    align-content: center;
+}
+.artists-container {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 15vw;
+    font-size: 1rem;
+    line-height: 1;
+}
+.artist {
+    width: 100%;
+}
+.artist img {
+    width: 50vw;
+    height: initial;
+    margin-bottom: 2vh;
+}
+.artist a {
+    margin: 5vh 0;
+    font-size: 1.5rem;
+}
+.title-container hr {
+    width: 100vw;
+}
+}
